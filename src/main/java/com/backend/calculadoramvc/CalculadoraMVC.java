@@ -5,6 +5,8 @@
 
 package com.backend.calculadoramvc;
 
+import modelo.Modelo;
+
 /**
  *
  * @author Manue
@@ -12,6 +14,9 @@ package com.backend.calculadoramvc;
 public class CalculadoraMVC {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Modelo m = new Modelo("1+2+3(5-3)");
+        
+        m.calcular();
     }
 }
