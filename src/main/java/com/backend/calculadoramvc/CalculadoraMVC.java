@@ -12,6 +12,5 @@ package com.backend.calculadoramvc;
 public class CalculadoraMVC {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
     }
 }
