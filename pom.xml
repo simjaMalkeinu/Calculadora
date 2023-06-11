@@ -26,11 +26,15 @@
             <groupId>org.nfunk.jep.JEP</groupId>
             <artifactId>JEP-library</artifactId>
             <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/jep-2.4.1.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.singularsys.jep.Jep</groupId>
             <artifactId>JEP-library2</artifactId>
             <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/jep-java-4.0-trial.jar</systemPath>
         </dependency>
     </dependencies>
 
