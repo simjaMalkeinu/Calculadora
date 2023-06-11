@@ -23,6 +23,12 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.nfunk.jep.JEP</groupId>
             <artifactId>JEP-library</artifactId>
             <version>1.0.0</version>
