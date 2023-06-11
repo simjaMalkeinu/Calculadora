@@ -47,4 +47,16 @@ public class ModeloTest {
         Assertions.assertEquals(expectedResults.get(argument), result);
     }
 
+    @Test
+    void testBlanks() {
+        String operacion = "  3  + 8  /  9    ";
+        double expectedResult = 3.888888888888889; 
+        Modelo modelo = new Modelo(operacion);
+        modelo.calcular();
+        Object result = modelo.getResult();
+
+        
+        Assertions.assertEquals(expectedResult, result);
+    }
+
 }
