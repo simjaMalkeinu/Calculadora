@@ -22,7 +22,16 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.nfunk.jep.JEP</groupId>
+            <artifactId>JEP-library</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.singularsys.jep.Jep</groupId>
+            <artifactId>JEP-library2</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>
